@@ -1,0 +1,12 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-class-properties", // clases en jsx
+        "react-hot-loader/babel", // carga dinamica de contenido
+        "babel-plugin-transform-object-assign"
+      ]
+    }
+  }
+}
